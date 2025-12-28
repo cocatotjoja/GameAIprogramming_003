@@ -1,0 +1,12 @@
+#pragma once
+
+enum AgentState
+{
+	SLEEPING,
+	EATINGDINER,
+	EATINGHOME,
+	WORKLONG,
+	WORKSHORT,
+	SHOPPING,
+	ATPUB
+};
