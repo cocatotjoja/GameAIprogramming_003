@@ -18,5 +18,5 @@ public:
 	AgentState currentState = SLEEPING;
 
 	Agent(int moneyV, int sleepV, int hungerV, int foodV);
-	void UpdateAgent();
+	void UpdateAgent(AgentState newState);
 };
