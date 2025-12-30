@@ -22,7 +22,46 @@ void Agent::UpdateAgent(AgentState newState)
 	{
 		case SLEEPING:
 			// Set timer & sleep level on entry
-			if (currentState != newState)
+			if (setTimer)
+			{
+				timer = 8;
+				setTimer = false;
+				break;
+			}
+			// Decrease timer & hunger
+			if (timer > 0)
+			{
+				timer -= 1;
+				hunger -= 1;
+				break;
+			}
+			// Update sleep and hunger on exit
+			sleep = sleepMAX;
+			hunger -= 1;
+			setTimer = true;
+			// Enter new state for next loop
+			currentState = newState;
+			break;
+
+		case EATINGDINER:
+			hunger = hungerMAX;
+			money -= 1;
+			sleep -= 1;
+			// Enter new state for next loop
+			currentState = newState;
+			break;
+
+		case EATINGHOME:
+			hunger = hungerMAX;
+			food -= 1;
+			sleep -= 1;
+			// Enter new state for next loop
+			currentState = newState;
+			break;
+
+		case WORKLONG:
+			// Set timer on entry
+			if (setTimer)
 			{
 				timer = 8;
 				break;
@@ -34,48 +73,50 @@ void Agent::UpdateAgent(AgentState newState)
 				hunger -= 1;
 				break;
 			}
-			currentState = newState;
-			sleep = sleepMAX;
-			break;
-		case EATINGDINER:
-			hunger = hungerMAX;
-			money -= 1;
-			sleep -= 1;
-			break;
-		case EATINGHOME:
-			hunger = hungerMAX;
-			food -= 1;
-			sleep -= 1;
-			break;
-		case WORKLONG:
-			// Set timer & money level on entry
-			if (currentState != newState)
-			{
-				timer = 8;
-				money += 5;
-				break;
-			}
-
-			// Decrease timer & hunger
-			timer -= 1;
+			// Update Money & Hunger on exit loop
+			money += 8;
 			hunger -= 1;
+			setTimer = true;
+			// Enter new state for next loop
+			currentState = newState;
 			break;
+
 		case WORKSHORT:
 			// Set timer & money level on entry
-
+			if (setTimer)
+			{
+				timer = 2;
+				break;
+			}
 			// Decrease timer & hunger
-			timer -= 1;
+			if (timer > 0)
+			{
+				timer -= 1;
+				hunger -= 1;
+				break;
+			}
+			// Update Money & Hunger on exit loop
+			money += 3;
 			hunger -= 1;
+			setTimer = true;
+			// Enter new state for next loop
+			currentState = newState;
 			break;
+
 		case SHOPPING:
 			food += 3;
 			sleep -= 1;
 			hunger -= 1;
+			// Enter new state for next loop
+			currentState = newState;
 			break;
+
 		case ATPUB:
 			sleep -= 1;
 			hunger -= 1;
 			money -= 1;
+			// Enter new state for next loop
+			currentState = newState;
 			break;
 		default:
 			break;

@@ -21,12 +21,24 @@
     <ClCompile Include="agent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="agent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dtree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

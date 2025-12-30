@@ -124,11 +124,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="agent.cpp" />
+    <ClCompile Include="dtree.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="node.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="agent.h" />
+    <ClInclude Include="dtree.h" />
     <ClInclude Include="enums.h" />
+    <ClInclude Include="node.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

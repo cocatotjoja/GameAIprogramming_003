@@ -13,6 +13,7 @@ public:
 	int hunger;
 	int food;
 
+	bool setTimer = true;
 	int timer = 0;
 
 	AgentState currentState = SLEEPING;
