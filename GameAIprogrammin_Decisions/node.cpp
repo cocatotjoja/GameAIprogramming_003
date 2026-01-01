@@ -2,6 +2,7 @@
 
 AgentState Node::WalkTree(int time, Agent agent)
 {
+	currentAgent = agent;
 	// Walk tree
 	// Check if condition is true or false
 	if (true)

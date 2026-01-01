@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{5F359F9B-DC5E-47E6-8335-ED997838ED65}|GameAIprogrammin_Decisions.vcxproj|solutionrelative:node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F359F9B-DC5E-47E6-8335-ED997838ED65}|GameAIprogrammin_Decisions.vcxproj|C:\\Users\\cocat\\Documents\\GitHub\\GameAIprogramming_003\\GameAIprogrammin_Decisions\\dtree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5F359F9B-DC5E-47E6-8335-ED997838ED65}|GameAIprogrammin_Decisions.vcxproj|solutionrelative:dtree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F359F9B-DC5E-47E6-8335-ED997838ED65}|GameAIprogrammin_Decisions.vcxproj|C:\\Users\\cocat\\Documents\\GitHub\\GameAIprogramming_003\\GameAIprogrammin_Decisions\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5F359F9B-DC5E-47E6-8335-ED997838ED65}|GameAIprogrammin_Decisions.vcxproj|solutionrelative:node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F359F9B-DC5E-47E6-8335-ED997838ED65}|GameAIprogrammin_Decisions.vcxproj|C:\\Users\\cocat\\Documents\\GitHub\\GameAIprogramming_003\\GameAIprogrammin_Decisions\\dtree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F359F9B-DC5E-47E6-8335-ED997838ED65}|GameAIprogrammin_Decisions.vcxproj|solutionrelative:dtree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F359F9B-DC5E-47E6-8335-ED997838ED65}|GameAIprogrammin_Decisions.vcxproj|C:\\Users\\cocat\\Documents\\GitHub\\GameAIprogramming_003\\GameAIprogrammin_Decisions\\dtree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -54,12 +54,11 @@
               "RelativeToolTip": "enums.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-28T20:48:15.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T20:48:15.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "dtree.h",
               "DocumentMoniker": "C:\\Users\\cocat\\Documents\\GitHub\\GameAIprogramming_003\\GameAIprogrammin_Decisions\\dtree.h",
               "RelativeDocumentMoniker": "dtree.h",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "dtree.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-30T14:45:36.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T14:45:36.979Z"
             },
             {
               "$type": "Document",
@@ -80,18 +78,17 @@
               "RelativeToolTip": "dtree.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-30T14:59:27.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T14:59:27.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "node.h",
               "DocumentMoniker": "C:\\Users\\cocat\\Documents\\GitHub\\GameAIprogramming_003\\GameAIprogrammin_Decisions\\node.h",
               "RelativeDocumentMoniker": "node.h",
               "ToolTip": "C:\\Users\\cocat\\Documents\\GitHub\\GameAIprogramming_003\\GameAIprogrammin_Decisions\\node.h",
               "RelativeToolTip": "node.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-30T13:39:06.706Z",
               "EditorCaption": ""
@@ -104,7 +101,7 @@
               "RelativeDocumentMoniker": "node.cpp",
               "ToolTip": "C:\\Users\\cocat\\Documents\\GitHub\\GameAIprogramming_003\\GameAIprogrammin_Decisions\\node.cpp",
               "RelativeToolTip": "node.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-30T13:54:54.717Z",
               "EditorCaption": ""
@@ -119,8 +116,7 @@
               "RelativeToolTip": "agent.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-28T20:33:10.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T20:33:10.241Z"
             },
             {
               "$type": "Document",
@@ -132,8 +128,7 @@
               "RelativeToolTip": "agent.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-28T20:57:48.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T20:57:48.822Z"
             },
             {
               "$type": "Document",
@@ -145,8 +140,7 @@
               "RelativeToolTip": "main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-28T18:57:47.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T18:57:47.88Z"
             }
           ]
         }
